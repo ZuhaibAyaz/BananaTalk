@@ -14,8 +14,13 @@ h1{
 textarea{
     margin-top: 5rem;
     margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
     padding: 1rem;
     display:block;
+      width: 100%;
+   height: 15vh;
+
     
 }
 button{
@@ -24,4 +29,13 @@ button{
     background-color: yellow;
     margin-bottom: 2rem;
     text-align: center;
+}
+#output{
+    border: 1px solid black;
+    height: 12vh;
+    margin: 1rem;
+    padding: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
